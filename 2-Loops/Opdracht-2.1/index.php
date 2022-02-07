@@ -1,12 +1,16 @@
 <?php
 
+$leeftijd = 0;
 echo "<ul>";
+while($leeftijd < 18){
 
-for($leeftijd = 0; $leeftijd < 18; $leeftijd++){
-    echo"<li>Ik ben " . $leeftijd . "jaar, ik mag nog niet stemmen.</li>";
+    echo "<li>Ik ben $leeftijd jaar, dus ik mag nog niet stemmen.</li>";
+
+    $leeftijd++;
+
 }
 
-echo "<li>Ik ben " . $leeftijd . "jaar oud, ik mag stemmen</li>";
-
+echo ("<li>Ik ben $leeftijd jaar, dus ik heb stemrecht.</li>" );
 echo "</ul>";
+
 ?>
