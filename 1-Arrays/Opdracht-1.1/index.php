@@ -1,6 +1,6 @@
 <?php
 $student = array ("voornaam"=>"Ties","achternaam"=>"Stapper","Klas"=>"1C","leeftijd"=>"16");
-echo "Gegevens van Chahid Laaouar:";
+echo "Gegevens van Ties Stapper:";
 echo "<br>";
 
 echo "Voornaam: " . $student["voornaam"];
