@@ -1,14 +1,13 @@
-<?php
-echo 'Naam: ';
-echo $_POST["voornaam"];
-echo ' ';
-echo $_POST["Achternaam"];
-echo '<br> Klas: ';
-echo $_POST["Klas"];
-echo '<br> Leeftijd: ';
-echo $_POST["Leeftijd"];
-echo '<br> Adres: ';
-echo $_POST["Adres"];
-echo '<br> Woonplaats: ';
-echo $_POST["Woonplaats"];
-?> 
+<!DOCTYPE HTML>
+<html>  
+<body>
+Voornaam is: <?php  echo $_POST["Voornaam"]; ?> <br>
+Achternaam :<?php echo $_POST["achternaam"];?><br>
+Klas: <?php echo $_POST["klas"];?> <br>
+leeftijd: <?php echo $_POST["leeftijd"];?> <br>
+adres: <?php echo$_POST["adres"];  ?> <br>
+plaatsnaam :<?php echo $_POST["plaatsnaam"];?> <br>
+favoriete muziekband: <?php echo $_POST["muziek_band"];?> <br>
+
+</body>
+</html> 
