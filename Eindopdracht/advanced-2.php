@@ -38,9 +38,15 @@ $mijngegevens=array(
     "Sport"=> "Voetbal",
     "Woonplaats"=>"Amstelveen",
     "Hobby's"=> "Voetbal/gamen");
-    foreach($mijngegevens as $mijngegeves1 => $value){
-        maakRij($mijngegeves1,$value);
-    }
+   
+
+    foreach ($mijngegevens as $keys => $value) {
+    echo "<body style=background-color:" . $_POST['color2'] . ">
+    <tr>
+    <td style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $keys . "</p> </td>
+    <td style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $value . "</p> </td>
+    </tr>";
+}
 
  ?>
 </table>
