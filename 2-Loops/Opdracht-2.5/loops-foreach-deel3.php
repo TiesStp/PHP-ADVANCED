@@ -1,4 +1,4 @@
-<?php 
+<?php
 $student  = array(
     "voornaam"    => "Jan",
     "achternaam"  => "Janssen",
@@ -6,12 +6,7 @@ $student  = array(
     "Leeftijd"    => 17,
     "Woonplaats"  => "Amstelveen"
   );
-  foreach($student as $keys => $value){
-    echo" " . $keys . " = " . $value . "<br>";
+foreach($student as $key => $value){
+    echo "$key = $value<br>";
 }
-
-
-
-
-
 ?>
