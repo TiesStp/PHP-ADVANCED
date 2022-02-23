@@ -1,38 +1,66 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gegevensformulier</title>
+</head>
+<body>
 
-<h2> Gegevensformulier</h2>
 
-<form name="invoerformulier" action="mijngegevens.php" method="post">
 
-    Voornaam : <input type="text" name="Voornaam"><br>
-    Achternaam :<input type="text" name="achternaam"><br>
-    Klas :<input type="text" name="klas"><br>
-    Leeftijd :<input type="text" name="leeftijd"><br>
-    adres :<input type="text" name="adres"><br>
-    Plaatsnaam :<input type="text" name="plaatsnaam"><br>
-    favoriete muziekband : <input type="text" name="muziek_band"><br>   
-    Geslacht <input type= "radio" id="Vrouw" name="geslacht" value="Vrouw">
-    <label for="man">Man</label><br>  
-    <input type="radio" id="Vrouw" name="geslacht" value="Vrouw">
-    <label for="Vrouw">Vrouw</label><br>
-    <br>
-    <select name="color">
-    <option>lievelingskleur</option>
-    <option style='background-color:blue;'>blauw</option>    
-    <option style='background-color:red;'>rood</option>    
-    <option style='background-color:green;'>groen</option>    
-    <option style='background-color:purple;'>paars</option>   
-    <option style='background-color:orange;'>oranje</option> 
 
-    </select>
-    <div>
-        <input type="submit" name="submit" value="verstuur">
-    </div>
 
-</form>
+    <form name="invoer" action="mijngegevens.php" method="post">
 
+      
+
+        Voornaam: <li><input type="text" name="voornaam"></li>
+        <br>
+
+        Achternaam: <li><input type="text" name="achternaam"></li>
+        <br>
+
+        Klas: <li><input type="text" name="klas"></li>
+        <br>
+
+        Leeftijd: <li><input type="text" name="leeftijd"></li>
+        <br>
+
+        Adres: <li><input type="text" name="adres"></li>
+        <br>
+
+        Plaatsnaam: <li><input type="text" name="plaats"></li>
+        <br>
+
+        Favoriete Muziekband: <li><input type="text" name="muziek"></li>
+        <br>
+
+        Geslacht:
+        <li>
+            <input type="radio" name="geslacht" value="man">
+            <label for="geslacht">Man</label>
+            <input type="radio" name="geslacht" value="vrouw">
+            <label for="geslacht">Vrouw</label>
+        </li>
+        <br>
+
+        Achtergrond kleur:
+        <li>
+            <select name="color">
+                <option style="background-color: blue;">blue</option>
+                <option style="background-color: red;">red</option>
+                <option style="background-color: yellow;">yellow</option>
+                <option style="background-color: green;">green</option>
+                <option style="background-color: purple;">purple</option>
+
+            </select>
+        </li>
+        <br>
+        
+        <li><input type="submit" name="submit" value="Verzenden"></li>
+
+     </form>
 </body>
-
 </html>
